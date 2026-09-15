@@ -16,8 +16,9 @@ environment.systemPackages = with pkgs; [
   gcc
   fzf
   rofi # -wayland
-#  megasync
+  megasync
   github-cli
+  awww
 
 ];
 
