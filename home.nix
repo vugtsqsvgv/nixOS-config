@@ -12,6 +12,7 @@ home.file = {
 ".config/nvim".source = "${dotfiles}/.config/nvim";
 ".config/kitty".source = "${dotfiles}/.config/kitty";
 ".config/rofi".source = "${dotfiles}/.config/rofi";
+".Pictures".source = "${dotfiles}"/Pictures}";
 
 };
 }
