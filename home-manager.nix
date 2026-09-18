@@ -1,4 +1,4 @@
-{config, lib, pkgs, dotfiles, inputs, ...}:
+{config, lib, pkgs,p10k, dotfiles, oh-my-zsh, inputs, ...}:
 
 {
 imports = 
@@ -12,7 +12,7 @@ home-manager = {
 useUserPackages = true;
 useGlobalPkgs = true; 
 backupFileExtension = "backup" ;
-extraSpecialArgs = {inherit dotfiles;};
+extraSpecialArgs = {inherit p10k dotfiles oh-my-zsh;};
 users.sss = import ./home.nix;
 };
 

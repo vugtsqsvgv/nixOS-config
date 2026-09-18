@@ -18,13 +18,26 @@
 
     };
 
+    oh-my-zsh = {
+
+	url = "github:ohmyzsh/ohmyzsh/master";
+	flake = false;
+
+    };
+    p10k = {
+
+	url = "github:romkatv/powerlevel10k/master" ;
+	flake = false ;
+
+    };
+
   };
 
-  outputs = {self, nixpkgs, dotfiles, home-manager, ...}: {
+  outputs = {self, nixpkgs, dotfiles, oh-my-zsh,p10k, home-manager, ...}: {
   nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
 
 	system = "x86_64-linux";
-	specialArgs = {inherit dotfiles; inputs = self.inputs;} ;
+	specialArgs = {inherit dotfiles oh-my-zsh p10k; inputs = self.inputs;} ;
 	modules = [
 	./configuration.nix
 	./home-manager.nix

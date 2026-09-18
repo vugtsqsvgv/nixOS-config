@@ -1,4 +1,4 @@
-{config,dotfiles , pkgs, ... }:{
+{config,dotfiles, oh-my-zsh,p10k , pkgs, ... }:{
 
 home.username = "sss";
 home.homeDirectory = "/home/sss";
@@ -12,7 +12,8 @@ home.file = {
 ".config/nvim".source = "${dotfiles}/.config/nvim";
 ".config/kitty".source = "${dotfiles}/.config/kitty";
 ".config/rofi".source = "${dotfiles}/.config/rofi";
-".Pictures".source = "${dotfiles}"/Pictures}";
-
+"Pictures".source = "${dotfiles}/Pictures";
+".oh-my-zsh".source = "${oh-my-zsh}";
+#".oh-my-zsh/custom/themes/powerlevel10k".source = "${p10k}";
 };
 }
