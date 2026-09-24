@@ -1,0 +1,102 @@
+{
+  "nodes": {
+    "dotfiles": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1790169097,
+        "narHash": "sha256-BSk1haIRTMJY8mT8wlOmA0DhhJR8t9J+c+cRWNPD1+E=",
+        "owner": "vugtsqsvgv",
+        "repo": "Dot-Files",
+        "rev": "4ac6812d9b2d5c285cdb302384a92de01e96b8eb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "vugtsqsvgv",
+        "ref": "main",
+        "repo": "Dot-Files",
+        "type": "github"
+      }
+    },
+    "home-manager": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1790128814,
+        "narHash": "sha256-6Gm9q+wW3E4Ey4F6wEbJAwaMsEK6hvCYfTW7yY64ZfA=",
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "rev": "0b2f1129177f70c5f0f5d88bb53c49ca47d0bfc0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "home-manager",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1790046670,
+        "narHash": "sha256-MYiI+CzL0tuWgRPjGsKCDHqYs2T3OzMlMQWOYWG0qso=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "6774f7bc253789b113a4f39285dc0fa100abeacc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "oh-my-zsh": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1790125050,
+        "narHash": "sha256-ZC69pI5AV1QZcn1pAvfx4N9UuOjjYzz7wCNnCta6gNY=",
+        "owner": "ohmyzsh",
+        "repo": "ohmyzsh",
+        "rev": "74965c96098134b192f00084f966b4b02438a739",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ohmyzsh",
+        "ref": "master",
+        "repo": "ohmyzsh",
+        "type": "github"
+      }
+    },
+    "p10k": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1788728414,
+        "narHash": "sha256-B2Sq/V455mlvMOAv+K7vEyZy53kVdo576ZAMcvbJXgk=",
+        "owner": "romkatv",
+        "repo": "powerlevel10k",
+        "rev": "d05a1b00f9a61f9578bf9dc19b8451942dde8734",
+        "type": "github"
+      },
+      "original": {
+        "owner": "romkatv",
+        "ref": "master",
+        "repo": "powerlevel10k",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "dotfiles": "dotfiles",
+        "home-manager": "home-manager",
+        "nixpkgs": "nixpkgs",
+        "oh-my-zsh": "oh-my-zsh",
+        "p10k": "p10k"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

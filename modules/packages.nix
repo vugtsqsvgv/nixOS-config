@@ -19,7 +19,13 @@ environment.systemPackages = with pkgs; [
   github-cli
   awww
   hyprshade
-
+  xfce4-whiskermenu-plugin
+  keepassxc
+  libreoffice
+  rclone
+  syncthing
+  fuse
+  fuse3
 ];
 
 fonts.packages = with pkgs; [
@@ -32,6 +38,12 @@ fonts.packages = with pkgs; [
 
 programs= {
   firefox.enable = true;
+  fuse = {
+
+	enable = true;
+	userAllowOther = true;
+
+  };
   kdeconnect.enable = true;
   hyprland.enable = true;
   git.enable = true;

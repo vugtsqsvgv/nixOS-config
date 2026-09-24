@@ -1,9 +1,9 @@
 { config, lib, pkgs, ... }:{
 
-boot.loader.grub = {
+boot.loader = {
+systemd-boot.enable = true;
+#efi.canTouchEfiVariables = true;
 
-	enable = true;
-	device = "/dev/vda";
 };
 
 }
