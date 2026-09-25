@@ -26,6 +26,7 @@ environment.systemPackages = with pkgs; [
   syncthing
   fuse
   fuse3
+  auto-cpufreq
 ];
 
 fonts.packages = with pkgs; [
