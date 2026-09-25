@@ -31,6 +31,7 @@ environment.systemPackages = with pkgs; [
   cliphist
   wl-clipboard
   nwg-look
+  tlp
 ];
 
 fonts.packages = with pkgs; [

@@ -2,6 +2,7 @@
 
 services = {
  openssh.enable = true;
+ tlp.enable = true ;
  auto-cpufreq.enable = true;
  envfs.enable = true;
  displayManager.sddm = {
