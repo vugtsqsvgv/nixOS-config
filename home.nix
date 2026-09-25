@@ -12,7 +12,7 @@ home.file = {
 ".config/nvim".source = "${dotfiles}/.config/nvim";
 ".config/kitty".source = "${dotfiles}/.config/kitty";
 ".config/rofi".source = "${dotfiles}/.config/rofi";
-"Pictures".source = "${dotfiles}/Pictures";
+"Pictures/wallpapers".source = "${dotfiles}/Pictures/wallpapers";
 ".oh-my-zsh".source = "${oh-my-zsh}";
 #".oh-my-zsh/custom/themes/powerlevel10k".source = "${p10k}";
 };
