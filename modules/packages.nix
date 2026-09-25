@@ -27,6 +27,9 @@ environment.systemPackages = with pkgs; [
   fuse
   fuse3
   auto-cpufreq
+  hyprshot
+  cliphist
+  wl-clipboard
 ];
 
 fonts.packages = with pkgs; [
