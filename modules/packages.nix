@@ -30,6 +30,7 @@ environment.systemPackages = with pkgs; [
   hyprshot
   cliphist
   wl-clipboard
+  nwg-look
 ];
 
 fonts.packages = with pkgs; [
