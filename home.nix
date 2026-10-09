@@ -13,7 +13,7 @@ home.file = {
 ".config/kitty".source = "${dotfiles}/.config/kitty";
 ".config/rofi".source = "${dotfiles}/.config/rofi";
 "Pictures/Wallpapers".source = "${dotfiles}/Pictures/Wallpapers";
-".oh-my-zsh".source = "${oh-my-zsh}";
-#".oh-my-zsh/custom/themes/powerlevel10k".source = "${p10k}";
+".oh-my-zsh/oh-my-zsh.sh".source = "${oh-my-zsh}/oh-my-zsh.sh";
+".oh-my-zsh/custom/themes/powerlevel10k".source = "${p10k}";
 };
 }

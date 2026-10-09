@@ -15,7 +15,6 @@ environment.systemPackages = with pkgs; [
   gcc
   fzf
   rofi # -wayland
-  megasync
   github-cli
   awww
   hyprshade
@@ -32,6 +31,9 @@ environment.systemPackages = with pkgs; [
   wl-clipboard
   nwg-look
   tlp
+  nodejs_22
+  blender
+  android-studio
 ];
 
 fonts.packages = with pkgs; [
