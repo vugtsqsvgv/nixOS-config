@@ -8,6 +8,7 @@ imports = [
 	./services.nix
 	./users.nix
 	./network.nix
+  ./npm.nix
   #./whisper.nix
 ];
 
