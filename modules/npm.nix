@@ -6,6 +6,7 @@ programs.nix-ld.libraries = with pkgs; [
   libdrm
   mesa
   libxkbcommon
+  glib
 ];
 
   }
