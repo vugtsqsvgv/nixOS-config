@@ -31,7 +31,7 @@ environment.systemPackages = with pkgs; [
   wl-clipboard
   nwg-look
   tlp
-  nodejs_22
+  nodejs
   blender
   android-studio
 ];

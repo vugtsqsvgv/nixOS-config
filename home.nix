@@ -15,5 +15,8 @@ home.file = {
 "Pictures/Wallpapers".source = "${dotfiles}/Pictures/Wallpapers";
 ".oh-my-zsh/oh-my-zsh.sh".source = "${oh-my-zsh}/oh-my-zsh.sh";
 ".oh-my-zsh/custom/themes/powerlevel10k".source = "${p10k}";
+".oh-my-zsh/tools/check_for_upgrade.sh".source = "${oh-my-zsh}/tools/check_for_upgrade.sh";
+#".oh-my-zsh/lib/compfix.zsh".source = "${oh-my-zsh}/lib/compfix.zsh";
+".oh-my-zsh/lib".source = "${oh-my-zsh}/lib";
 };
 }
