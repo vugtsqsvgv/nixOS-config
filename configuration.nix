@@ -16,6 +16,12 @@
 
     nix.settings.experimental-features = ["nix-command" "flakes"];
 
+    #appimage
+    programs.appimage = {
+  enable = true;
+  binfmt = true;
+};
+
     # Set your time zone.
    time.timeZone = "Africa/Algeria";
 

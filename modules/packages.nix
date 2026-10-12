@@ -34,6 +34,10 @@ environment.systemPackages = with pkgs; [
   nodejs
   blender
   android-studio
+  electron
+  krita
+  telegram-desktop
+  waydroid
 ];
 
 fonts.packages = with pkgs; [
