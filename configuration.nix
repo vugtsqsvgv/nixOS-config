@@ -22,6 +22,9 @@
   binfmt = true;
 };
 
+
+virtualisation.waydroid.enable = true;
+
     # Set your time zone.
    time.timeZone = "Africa/Algeria";
 
