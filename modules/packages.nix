@@ -38,7 +38,7 @@ environment.systemPackages = with pkgs; [
   krita
   telegram-desktop
   waydroid
-  pdf4qt
+  pdfsam-basic
 ];
 
 fonts.packages = with pkgs; [
