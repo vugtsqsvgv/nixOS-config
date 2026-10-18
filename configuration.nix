@@ -25,6 +25,8 @@
 
 virtualisation.waydroid.enable = true;
 
+virtualisation.waydroid.package = pkgs.waydroid-nftables;
+
     # Set your time zone.
    time.timeZone = "Africa/Algeria";
 
