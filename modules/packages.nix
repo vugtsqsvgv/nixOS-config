@@ -8,14 +8,14 @@ let
     url = "https://github.com/NixOS/nixpkgs/";
     ref = "refs/heads/nixos-24.11"; # Use the branch that contains the commit
     rev = "81b970640e56a5c07a336d2c05018b0c9bf57a51"; # Example commit hash
-  }) {};
+  }) { system = "x86_64-linux"; };
 
   androidPkgs = import (builtins.fetchGit {
     name = "nixpkgs-android-studio-2026.1.4.8";
     url = "https://github.com/NixOS/nixpkgs/";
     ref = "refs/heads/nixos-unstable";
     rev = "ae5fe741ba9acade281a9185139e3922811c9696"; # Example commit for Blender
-  }) {};
+  }) { system = "x86_64-linux"; };
 
 in
 
