@@ -15,7 +15,13 @@ let
     url = "https://github.com/NixOS/nixpkgs/";
     ref = "refs/heads/nixos-unstable";
     rev = "ae5fe741ba9acade281a9185139e3922811c9696"; # Example commit for Blender
-  }) { system = "x86_64-linux"; };
+  }) {
+    system = "x86_64-linux"; 
+      # Allow unfree packages specifically for this Nixpkgs instance
+    config.allowUnfree = true; 
+    # Accept Android SDK licenses (required for Android Studio)
+    config.android_sdk.accept_license = true;
+    };
 
 in
 
