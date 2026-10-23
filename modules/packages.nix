@@ -59,7 +59,7 @@ environment.systemPackages = with pkgs; [
   tlp
   nodejs
   blenderPkgs.blender
-  androidPkgs.android-studio
+  #androidPkgs.android-studio
   electron
   krita
   telegram-desktop
