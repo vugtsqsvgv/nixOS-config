@@ -64,6 +64,9 @@ environment.systemPackages = with pkgs; [
   krita
   telegram-desktop
   waydroid
+  jdk21
+  redshift
+  timeshift
 ];
 
 fonts.packages = with pkgs; [
