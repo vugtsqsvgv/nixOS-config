@@ -65,7 +65,7 @@ environment.systemPackages = with pkgs; [
   telegram-desktop
   waydroid
   jdk21
-  redshift
+  gammastep
   timeshift
 ];
 
