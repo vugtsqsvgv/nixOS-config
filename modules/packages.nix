@@ -66,6 +66,7 @@ environment.systemPackages = with pkgs; [
   waydroid
   jdk21
   gammastep
+  geoclue2
   timeshift
 ];
 
