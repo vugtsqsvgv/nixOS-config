@@ -27,6 +27,9 @@ virtualisation.waydroid.enable = true;
 
 virtualisation.waydroid.package = pkgs.waydroid-nftables;
 
+services.geoclue2.enable = true;
+location.provider = "geoclue2";
+
     # Set your time zone.
    time.timeZone = "Africa/Algeria";
 
