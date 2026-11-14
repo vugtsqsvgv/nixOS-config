@@ -34,7 +34,7 @@ services = {
  };
 };
 
-environment.xfce.excludePackages = with pkgs.xfce; [
+environment.xfce.excludePackages = with pkgs.pkgs; [
     mousepad         # Simple text editor
     parole           # Media player
     xfce4-appfinder  # Application finder
