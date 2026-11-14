@@ -33,6 +33,14 @@ services = {
 
  };
 };
-	
+
+environment.xfce.excludePackages = with pkgs.xfce; [
+    mousepad         # Simple text editor
+    parole           # Media player
+    xfce4-appfinder  # Application finder
+    xfce4-screenshooter
+    xfce4-terminal
+    # Add more package names here as needed
+  ];
 
 }
