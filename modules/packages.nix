@@ -67,6 +67,8 @@ environment.systemPackages = with pkgs; [
   jdk21
   gammastep
   geoclue2
+  vlc
+  ffmpeg
 ];
 
 fonts.packages = with pkgs; [
