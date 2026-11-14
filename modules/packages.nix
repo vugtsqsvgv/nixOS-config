@@ -67,7 +67,6 @@ environment.systemPackages = with pkgs; [
   jdk21
   gammastep
   geoclue2
-  timeshift
 ];
 
 fonts.packages = with pkgs; [

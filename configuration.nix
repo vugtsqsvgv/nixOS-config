@@ -31,7 +31,7 @@ services.geoclue2.enable = true;
 location.provider = "geoclue2";
 
     # Set your time zone.
-   time.timeZone = "Africa/Algeria";
+   time.timeZone = "Africa/Algiers";
 
 system.stateVersion = "26.05";
 
