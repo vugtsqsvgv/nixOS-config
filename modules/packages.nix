@@ -71,12 +71,22 @@ environment.systemPackages = with pkgs; [
   ffmpeg
   vista-fonts
   noto-fonts
+  corefonts
+  caladea
+  stix-two
+  liberation_ttf
+
 ];
 
 fonts.packages = with pkgs; [
 
 	nerd-fonts.jetbrains-mono
-
+  vista-fonts
+  noto-fonts
+  corefonts
+  caladea
+  stix-two
+  liberation_ttf
 
 ];
 
