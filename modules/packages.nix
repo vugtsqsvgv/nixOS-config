@@ -69,6 +69,8 @@ environment.systemPackages = with pkgs; [
   geoclue2
   vlc
   ffmpeg
+  vista-fonts
+  mono-font
 ];
 
 fonts.packages = with pkgs; [
