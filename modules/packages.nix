@@ -70,7 +70,7 @@ environment.systemPackages = with pkgs; [
   vlc
   ffmpeg
   vista-fonts
-  mono-font
+  noto-fonts
 ];
 
 fonts.packages = with pkgs; [
