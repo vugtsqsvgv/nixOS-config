@@ -75,6 +75,7 @@ environment.systemPackages = with pkgs; [
   caladea
   stix-two
   liberation_ttf
+  powertop
 
 ];
 
