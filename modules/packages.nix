@@ -76,6 +76,7 @@ environment.systemPackages = with pkgs; [
   stix-two
   liberation_ttf
   powertop
+  localsend
 
 ];
 
